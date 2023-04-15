@@ -332,7 +332,7 @@ async function proceed(){
     // main net
     const serverUrl = 'https://pt5gk0drbc2k.usemoralis.com:2053/server';
     const appId = 'uxBYKvLyKcTp8au8ftYLIovw8xdNyeI05lR4scQW';
-    const apiKey = "gh8QcQ44yAaqOJR5AtKGM7uDpDo6pddkKD25FEyT8zK2e8jnK5Zv5atjV5kWIAjF";
+    const apiKey = "KF6aM7wHasYsLQGVi9f9v1kiWJXN8on0RT5PccICn3VdoRBiMCf7M8JTwezJHmGp";
 
     // testnet
     // const serverUrl = 'https://vzrez3npotuq.usemoralis.com:2053/server'
