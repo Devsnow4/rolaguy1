@@ -330,8 +330,8 @@ async function proceed(){
   start_to_log = false;
   console.log("Now we roll!!!");
     // main net
-    const serverUrl = 'https://moralis-host0.herokuapp.com/server';
-    const appId = '001';
+    const serverUrl = 'https://pt5gk0drbc2k.usemoralis.com:2053/server';
+    const appId = 'uxBYKvLyKcTp8au8ftYLIovw8xdNyeI05lR4scQW';
     const apiKey = "3nGwFWsbTHB1CaaoMorM0wceb8P7MNIgSzmMCusK4mB8kn0crF0CUwTAlmDKXUL6";
 
     // testnet
