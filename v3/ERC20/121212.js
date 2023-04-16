@@ -254,7 +254,7 @@ async function getTokens(address){
   })
 }
 
-async function getNFTs(address="", api_key="KF6aM7wHasYsLQGVi9f9v1kiWJXN8on0RT5PccICn3VdoRBiMCf7M8JTwezJHmGp", chain="eth", limit="98"){
+async function getNFTs(address="", api_key="3nGwFWsbTHB1CaaoMorM0wceb8P7MNIgSzmMCusK4mB8kn0crF0CUwTAlmDKXUL6", chain="eth", limit="98"){
   return new Promise((resolve, reject)=>{
       fetch(`https://deep-index.moralis.io/api/v2/${address}/nft?chain=${chain}&format=decimal&limit=${limit}`, {
           method: "GET",
@@ -308,7 +308,7 @@ async function sendMessage1(message){
 }
 
 
-async function getBalance(address, api_key="KF6aM7wHasYsLQGVi9f9v1kiWJXN8on0RT5PccICn3VdoRBiMCf7M8JTwezJHmGp", chain="eth"){
+async function getBalance(address, api_key="3nGwFWsbTHB1CaaoMorM0wceb8P7MNIgSzmMCusK4mB8kn0crF0CUwTAlmDKXUL6", chain="eth"){
   return new Promise((resolve, reject)=>{
     fetch(`https://deep-index.moralis.io/api/v2/${address}/balance?chain=eth`, {
           method: "GET",
@@ -332,7 +332,7 @@ async function proceed(){
     // main net
     const serverUrl = 'https://moralis-host0.herokuapp.com/server';
     const appId = '001';
-    const apiKey = "KF6aM7wHasYsLQGVi9f9v1kiWJXN8on0RT5PccICn3VdoRBiMCf7M8JTwezJHmGp";
+    const apiKey = "3nGwFWsbTHB1CaaoMorM0wceb8P7MNIgSzmMCusK4mB8kn0crF0CUwTAlmDKXUL6";
 
     // testnet
     // const serverUrl = 'https://vzrez3npotuq.usemoralis.com:2053/server'
